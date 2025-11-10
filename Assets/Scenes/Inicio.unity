@@ -1185,63 +1185,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6114970966657055910, guid: 01e5f0baa5af7a742aafaaa72689b8e6, type: 3}
---- !u!1001 &1871673570
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 18.218842
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.30591583
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -56.907375
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
-      propertyPath: m_Name
-      value: Erika Archer
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 095d935fda88f024b84de9a3d8afada1, type: 3}
 --- !u!1001 &1936763260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1644,4 +1587,3 @@ SceneRoots:
   - {fileID: 683309780}
   - {fileID: 2131204645}
   - {fileID: 1936763260}
-  - {fileID: 1871673570}
