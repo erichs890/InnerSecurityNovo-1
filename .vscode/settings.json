@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "InnerSecurity-main.sln"
+    "dotnet.defaultSolution": "InnerSecurityNovo.sln"
 }
