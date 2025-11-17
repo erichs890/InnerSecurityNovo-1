@@ -1,33 +1,29 @@
-using UnityEngine;
+using UnityEngine; 
 using TMPro;
 using UnityEngine.SceneManagement;
 
 public class CutsceneDia1 : MonoBehaviour
 {
-    public TextMeshProUGUI dia1Text;      // Texto "Dia 1"
-    public float textDelay = 1f;           // Tempo antes de começar o fade do texto
-    public float textFadeDuration = 2f;    // Duração do fade-in do texto
-    public float sceneDelay = 2f;          // Tempo para manter o texto visível antes de ir pro jogo
+    public TextMeshProUGUI dia1Text;
+    public float textDelay = 1f;
+    public float textFadeDuration = 2f;
+    public float sceneDelay = 2f;
+    public string proximaCena = "Inicio"; // nome da cena que virá depois
 
     private void Start()
     {
-        dia1Text.alpha = 0;                // Começa invisível
+        dia1Text.alpha = 0;
         StartCoroutine(PlayCutscene());
     }
 
     private System.Collections.IEnumerator PlayCutscene()
     {
-        // 1. Espera um pouco antes de mostrar o texto
         yield return new WaitForSeconds(textDelay);
-
-        // 2. Fade-in do texto "Dia 1"
         yield return StartCoroutine(FadeText(0, 1, textFadeDuration));
-
-        // 3. Mantém o texto visível por um tempo
         yield return new WaitForSeconds(sceneDelay);
 
-        // 4. Troca para a próxima cena (descomente e coloque o nome correto)
-        // SceneManager.LoadScene("CenaDoJogo");
+        // 4. Troca para a próxima cena
+        SceneManager.LoadScene(proximaCena);
     }
 
     private System.Collections.IEnumerator FadeText(float start, float end, float duration)
